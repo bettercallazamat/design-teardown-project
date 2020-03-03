@@ -1,0 +1,60 @@
+/* body{
+
+} */
+
+.nav-elements{
+  display: flex;
+  width: 100%;
+  background-color: khaki;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-option{
+    text-align: center;
+}
+
+.article-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-article{
+    background-color: lightblue;
+    width: 50%;
+}
+
+.membership-container{
+    background-color: lightgreen;
+    width: 100%;
+
+}
+
+.posts-container{
+    display: flex;
+    background-color: lightpink;
+    width: 100%;
+}
+
+.pre-launch-container{
+    background-color: lightsteelblue;
+    width: 100%;
+}
+
+.authors-container{
+    display: flex;
+    background-color: lightpink;
+    width: 100%;
+}
+
+.author-article{
+    width: 50%;
+}
+
+.footer-links{
+    text-align: center;
+}
+
+.footer-links > li{
+    display: inline;
+}
