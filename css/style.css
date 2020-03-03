@@ -1,60 +1,123 @@
-/* body{
+* {
+  box-sizing: border-box;
+}
 
-} */
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 .nav-elements{
   display: flex;
   width: 100%;
   background-color: khaki;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  height: 140px;
+}
+
+.nav-elements  i {
+  font-size: 40px;
+}
+
+.nav-elements h2 {
+  font-size: 20px;
+}
+
+.nav-elements h3 {
+  font-size: 15px;
 }
 
 .nav-option{
-    text-align: center;
+  text-align: center;
+}
+
+.title-container {
+  position: absolute;
+  font-size: 35px;
+  background-color: red;
+  top: 170px;
+  right: 50%;
+  width: 500px;
+  margin-right: -250px;
+  text-align: center;
 }
 
 .article-container{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-article{
-    background-color: lightblue;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 50%;
+  height: 600px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.first-row {
+  padding-top: 150px;
+}
+
+.main-article h3 {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.main-article h3 > i {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.main-article h2 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.main-article h2 > i {
+  font-size: 20px;
+}
+
+.main-article span {
+  font-size: 20px;
+  margin-right: 20px;
 }
 
 .membership-container{
-    background-color: lightgreen;
-    width: 100%;
+  background-color: lightgreen;
+  width: 100%;
 
 }
 
 .posts-container{
-    display: flex;
-    background-color: lightpink;
-    width: 100%;
+  display: flex;
+  background-color: lightpink;
+  width: 100%;
 }
 
 .pre-launch-container{
-    background-color: lightsteelblue;
-    width: 100%;
+  background-color: lightsteelblue;
+  width: 100%;
 }
 
 .authors-container{
-    display: flex;
-    background-color: lightpink;
-    width: 100%;
+  display: flex;
+  background-color: lightpink;
+  width: 100%;
 }
 
 .author-article{
-    width: 50%;
+  width: 50%;
 }
 
 .footer-links{
-    text-align: center;
+  text-align: center;
 }
 
 .footer-links > li{
-    display: inline;
+  display: inline;
 }
