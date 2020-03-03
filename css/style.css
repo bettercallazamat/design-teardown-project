@@ -142,9 +142,69 @@ body{
   padding: 10px 0;
 }
 
+.more-articles-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.more-articles-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  border-bottom: 2px solid black;
+}
+
 .pre-launch-container{
   background-color: lightsteelblue;
   width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+.pre-launch-container h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.pre-launch-container span {
+  display: block;
+}
+
+.pre-launch-container p {
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.pre-launch-container button {
+  padding: 10px 40px;
+  margin-bottom: 30px;
+}
+
+.pre-launch-container i {
+  display: block;
+  font-size: 300px;
+}
+
+.person-container {
+  height: 300px;
+  padding: 50px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.person-container i {
+  float: left;
+  font-size: 180px;
+  padding-right: 20px;
+}
+
+.person-container span {
+  display: block;
+  margin-bottom: 30px;
+  line-height: 30px;
 }
 
 .authors-container{
