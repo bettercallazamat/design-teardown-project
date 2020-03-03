@@ -90,13 +90,56 @@ body{
 .membership-container{
   background-color: lightgreen;
   width: 100%;
+  height: 600px;
+  padding: 9% 40% 5% 15%;
+  font-size: 24px;
+  line-height: 30px;
+}
 
+.membership-container ul {
+  padding: 5% 0 0 5%;
+}
+
+.membership-container i {
+  float: right;
+  font-size: 200px;
+  margin-right: -250px;
+  margin-top: -55px;
+}
+
+.membership-container li {
+  list-style: circle;
+  padding: 5px 0 5px 5px;
 }
 
 .posts-container{
   display: flex;
   background-color: lightpink;
   width: 100%;
+  /* height: 600px; */
+  border: 2px solid red;
+}
+
+.post-article {
+  padding: 7% 2%;
+  min-width: 250px;
+  height: 600px;
+}
+
+.post-article h2{
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.post-article h3{
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.post-article p{
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px 0;
 }
 
 .pre-launch-container{
