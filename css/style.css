@@ -48,10 +48,9 @@ body {
   padding: 10px 0;
 }
 
-.title-container > h1{
+.title-container > h1 {
   font-weight: 700;
 }
-
 
 .article-container {
   display: flex;
@@ -265,11 +264,11 @@ body {
   line-height: 20px;
 }
 
-.author-article h2{
+.author-article h2 {
   font-weight: 500;
 }
 
-.author-article p{
+.author-article p {
   font-weight: 300;
 }
 
