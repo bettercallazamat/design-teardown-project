@@ -17,14 +17,18 @@ body {
 
 .nav-elements i {
   font-size: 40px;
+  padding-bottom: 5px;
 }
 
 .nav-elements h2 {
   font-size: 20px;
+  font-weight: 500;
 }
 
 .nav-elements h3 {
   font-size: 15px;
+  font-weight: 500;
+  padding-top: 5px;
 }
 
 .nav-option {
@@ -42,8 +46,12 @@ body {
   margin-right: -250px;
   text-align: center;
   padding: 10px 0;
-  font-weight: 100;
 }
+
+.title-container > h1{
+  font-weight: 700;
+}
+
 
 .article-container {
   display: flex;
@@ -58,11 +66,6 @@ body {
   width: 50%;
   height: 600px;
   padding: 50px;
-}
-
-.article-container div:first-child,
-.article-container div:nth-child(2) {
-  /* background-color: #555; */
 }
 
 .first-row {
@@ -94,6 +97,7 @@ body {
   display: inline;
   font-size: 40px;
   padding: 20px 0;
+  font-weight: 500;
 }
 
 .flexbox-row2 i {
@@ -112,6 +116,7 @@ body {
   padding: 9% 40% 5% 15%;
   font-size: 24px;
   line-height: 30px;
+  font-weight: 300;
 }
 
 .membership-container ul {
@@ -148,6 +153,7 @@ body {
 .post-article h2 {
   font-size: 30px;
   padding: 10px 0;
+  font-weight: 500;
 }
 
 .post-article h3 {
@@ -159,6 +165,7 @@ body {
   font-size: 15px;
   line-height: 30px;
   padding: 10px 0;
+  font-weight: 300;
 }
 
 .post-article ul {
@@ -169,6 +176,8 @@ body {
   list-style: circle;
   text-decoration: underline;
   color: black;
+  line-height: 25px;
+  font-weight: 300;
 }
 
 .more-articles-link {
@@ -196,6 +205,7 @@ body {
 .pre-launch-container h2 {
   font-size: 35px;
   padding-bottom: 30px;
+  font-weight: 500;
 }
 
 .pre-launch-container span {
@@ -207,6 +217,7 @@ body {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 30px;
+  font-weight: 300;
 }
 
 .pre-launch-container button {
@@ -222,9 +233,10 @@ body {
 .person-container {
   height: 300px;
   padding: 50px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   background-color: #666;
+  font-weight: 300;
 }
 
 .person-container i {
@@ -251,6 +263,14 @@ body {
   width: 50%;
   padding: 40px;
   line-height: 20px;
+}
+
+.author-article h2{
+  font-weight: 500;
+}
+
+.author-article p{
+  font-weight: 300;
 }
 
 .authors-container i {
@@ -303,6 +323,7 @@ footer {
   width: 40%;
   margin: auto;
   padding: 20px 0;
+  font-weight: 300;
 }
 
 .legal li {
