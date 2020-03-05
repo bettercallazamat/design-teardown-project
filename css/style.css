@@ -329,3 +329,7 @@ footer {
   display: inline;
   text-decoration: underline;
 }
+
+.seccion-header{
+  display: none;
+}
